@@ -32,7 +32,7 @@ logger = logging.getLogger(__name__)
 BOT_TOKEN = "8320647437:AAHQJn4uDMiwHwOgemgxule2_vu66VwWXdE"  # replace
 ADMIN_ID = 8406676409          # replace with your admin id (int)
 SECRET_KEY = "PARISHRAM2025"        # should match your HTML generator
-TASK_URL = "file:///C:/Users/Satyam%20Thakur/Downloads/bot/Parishram%202025/index.html?status=verified"
+TASK_URL = "https://parishram2025.netlify.app/index.html?status=verified"
 BACKUP_CHANNEL = -1002877068674    # channel id where lectures are stored (int)
 CHANNEL_IDS = [-1002877068674 , -1003125683775]     # list of channels user must join
 INVITE_URLS = ["https://t.me/parishram_2025_1_0" , "https://t.me/+jRyiB6lBAQljNjA1"] 
@@ -652,3 +652,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
